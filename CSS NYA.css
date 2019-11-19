@@ -1,0 +1,15 @@
+.menu div{
+	background-color: rgb(12, 209, 209);
+	width: 100%;
+	height: 100px;
+	
+}
+.menu{
+	background-color: #33CCFF; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 71px;
+}
+    

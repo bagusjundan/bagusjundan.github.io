@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* menu */
+body {
+    background-color: white;
+    color: burlywood 
+}
+
+body header h1  {
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.menu{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 40;
+    margin-right: -30;
+    margin-top: 17;
+    font-size: 15;
+}
+
+.menu{
+    background-color: #33CCFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 71;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #33CCFF;
+    width: 100%;
+}
+
+
+header nav ul .about{
+    margin-left: 394px;
+    margin-top: 0px;    
+}
+header nav{
+    float: left;
+}
+
+header .form1{
+    float: right;
+    margin-top: 0px;
+    margin-right: -35px;
+
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: 15px;
+
+}
+header a{
+    text-decoration:none;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+}
+
+header a:hover{
+    background-color: white;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 6px;
+    color: #33CCFF;
+}
+form .search{
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    color: #c0c0c0;
+    height: 22px;
+    outline: none;
+    border-radius: 15px;
+    border: 0px solid #333;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 40px;
+}
+
+
+/* gambar */
+
+.berita{
+    float: left;
+    margin-right: 0px;
+    margin-top: 100px;
+}
+.berita .img img{
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 5px 5px 6px -6px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+.img img{
+    width: 300px;
+    height: 150px;
+}
+.kalender{
+    background-color: #33CCFF;
+    float: right;
+    margin-top: 200px;
+    margin-right: 60px;
+    border-radius: 15px;
+}
+.kalender h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.kalender img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.press{
+    margin-left: 150px;
+}
+
+tr td button:hover{
+    background-color: blue;
+}
+tr td button{
+    background-color: #33CCFF;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 35px;
+    margin-right: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px -6px black;
+    cursor: pointer;
+}
+
+.garis{
+    float: right;
+    margin-right: 10px;
+    height: 1000px;
+    width: 0px;
+    border: 0.5px solid rgb(187, 187, 187);
+}
+
+
+footer{
+    float: right;
+    width: 100%;
+    height: 50px;
+    background-color: #33CCFF;
+}
+
+footer .garisBawah{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/*media query*/
+
+@media(max-width:720px){
+    header,
+    header nav,
+    header nav ul a,
+    header nav ul .about a,
+    header .form1,
+    .kalender .img,
+    .garis,
+    .garisBawah,
+    table
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
